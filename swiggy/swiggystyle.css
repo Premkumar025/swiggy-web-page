@@ -1,0 +1,455 @@
+*{
+    margin: 0px;
+}
+.swiggy{
+     width: 100%;
+     height: 600px;
+     display: flex;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+     /* border: 1px solid black; */
+}
+.image
+{
+/* object-fit: cover; */
+width: 100%;
+height: 100%;
+}
+.box-1{
+    width: 60%;
+    height: 100%;
+    /* text-align: left; */
+    /* border: 2px solid rebeccapurple; */
+}
+.box-2{
+    width: 40%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.logo{
+    height: 60px;
+    /* border: 2px solid red; */
+    padding: 80px;
+    
+    /* position: absolute;
+    top: 70px;
+    left: 100px; */
+}
+
+.form2{
+    /* position: relative; */
+    /* left: 550px;
+    top: -135px; */
+    /* width: 180px; */
+    /* height: 60px; */
+    /* border: 1px solid rebeccapurple; */
+
+    display:flex;   
+    float: right;
+    margin-top: 90px;
+    margin-right: 60px; 
+    /* display:inline-block; */
+    width: 170px;
+    height: 40px;
+    
+}
+
+.f1{
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    /* display:block; */
+
+}
+.f1:hover{
+    color:orange
+
+}
+
+.f2{
+width: 70px;
+height: 20px;
+/* border: 1px solid red; */
+padding: 10px;
+text-align: center;
+cursor: pointer;
+color:white;
+font-weight: bold;
+background-color: black;
+}
+
+/* Text alignment */
+
+.text-1{
+font-weight: bold;
+font-size: 250%;
+padding-left: 80px;
+/* position: absolute; */
+/* left:0;
+top:210px; */
+}
+
+.text-2{
+color: gray;
+font-size: 150%;
+padding-left: 80px;
+padding-top: 12px;
+/* position: absolute; */
+/* left:0;
+top: 265px; */
+}
+
+.form1{
+
+    margin-left: 70px;
+    margin-top: 50px;
+    display: flex;
+    /* display:inline-block; */
+}
+
+.local{
+
+    position: absolute;
+    left: 35%;
+    top: 62%;
+    /* top: 62%;
+    left: 30em; */
+}
+
+.search-box{
+    /* border-color: orange; */
+    width: 68%;
+    height: 50px;
+    font-weight: 600;
+    padding-left:10px;
+    font-size : large;
+    border-right: 1px solid #fc8019;
+    border-top: 1px solid black;
+
+}
+.search-box:hover{
+    border-color: orange;
+}
+
+.search-btn{
+    background-color: #fc8019;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    width: 18%;
+}
+
+.text3{
+    color: gray;
+    font-weight: 100;
+    margin-left:70px;
+    margin-top: 30px;
+}
+
+.text4{
+    color: gray;
+    font-weight: 100;
+    margin-left:70px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.swiggy-1{
+    /* margin: 0px; */
+    /* padding: 1%; */
+    width: 100%;
+    height: 25em;
+   font-family:ProximaNova,arial,Helvetica Neue,sans-serif;
+    background-color:#2b1e16;
+    /* margin-right: auto; */
+    /* box-sizing: border-box; */
+    display: flex;
+    /* justify-content: space-around; */ 
+    
+
+}
+ .box-11{
+    width: 30%;
+    height: 98%;
+
+    margin-right: 2.2rem;
+    /* border: 2px solid red; */
+    display:inline-block;
+    /* padding: 50px; */
+}
+
+.box-12{
+    width: 30%;
+    height: 98%;
+
+    margin-right: 2rem;
+    /* border: 2px solid red; */
+    display:inline-block;
+
+}
+
+.box-13{
+    width: 30%;
+    height: 98%;
+
+    margin-right: 2rem;
+    /* border: 2px solid red; */
+    display:inline-block;
+}
+
+
+
+.col-1{
+    width: 50%;
+    height: 60%;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;   
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+.c1{
+    /* border: 2px solid blue;
+    width: 9em;
+    height: 2em;
+    margin-left: auto;
+    margin-right: auto;     */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 25px;
+}
+
+.t1{
+    /* border: 2px solid blue;
+    width: 16em;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;   */
+    text-align: center;
+    color: #e0cbc1;
+    padding: 8px;
+}
+
+.col-2{
+    width: 50%;
+    height: 60%;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.c2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 25px;
+}
+
+.t2{
+    text-align: center;
+    color: #e0cbc1;
+    padding: 8px;
+
+}
+
+.col-3{
+    width: 50%;
+    height: 60%;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.c3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 25px;
+}
+
+.t3{
+    text-align: center;
+    color: #e0cbc1;
+    padding: 8px;
+
+}
+
+/* swiggy--2 */
+.swiggy-2
+{
+    width: 100%;
+    height: 28em;
+    display: flex;
+   font-family:ProximaNova,arial,Helvetica Neue,sans-serif;
+    background-color:#ffffff;
+    /* border: 2px solid red; */
+}
+
+.s2t1{
+
+    width: 60%;
+    /* border: 2px solid red; */
+    margin-top: 10%;
+    margin-left: 11%;
+    font-size: 50px;
+    font-weight: bolder;
+    /* margin: 20%; */
+}
+
+.s2t2
+{
+    width: 80%;
+    height: 4em;
+    /* border: 2px solid red; */
+    margin-top: 2%; 
+    margin-left: 11%; 
+    font-size: 1.5em;
+    color:gray;
+}
+
+.s2im1{
+    
+    width: 25%;
+    height: 4em;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 11%;
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.s2im2{
+    width: 25%;
+    height: 4em;
+    /* border: 2px solid red; */
+    display: inline-block;
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/* .im1{
+    width: 20%;
+    height: 20%;
+    margin: -75px 0 0 30px;
+}  */
+
+/* .s1{
+    overflow: hidden;
+} */
+
+.s2tbox{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.s2ibox
+{
+     width: 50%;
+     height: 50%;
+}
+
+.top{
+    width: 40%;
+    height: 200%;
+    /* border: 2px solid red; */
+    display: inline-block;
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n");
+    background-position:top;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.buttom{
+    width: 40%;
+    height: 200%;
+    /* border: 2px solid black; */
+    margin-left: 10%;
+    /* float: right; */
+    display: inline-block;
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn");
+    background-position:bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+/* swiggy3 */
+.swiggy-3{
+width: 100%;
+height: 30em;
+display: flex;
+/* border: 2px solid red; */
+color: white;
+background-color:black;
+}
+
+.s3f2{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid  black; */
+    margin: 25px;
+    padding: 20px;
+    text-align-last: left;
+    line-height: 35px;
+    font-size: 20px;
+    /* background-color: black; */
+    
+}
+.s3img1,.s3img2{
+    width: 200px;
+    height: 65px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+}
+
+.swiggy-4{
+    width: 100%;
+/* border: 2px solid red; */
+display: inline-block;
+color: white;
+background-color:black;
+}
+.s4f2{
+    width: 20%;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-left: 50px;
+    /* margin: 25px; */
+    /* padding: 10px; */
+    text-align-last: left;
+    line-height: 35px;
+    font-size: 20px;
+}
+.swiggy-5{
+    width: 100%;
+    height: 3em;
+    display: inline-block;
+    color: white;
+background-color:black;
+}
+.logo5{
+    display: inline-block;
+    text-align: center;
+}
